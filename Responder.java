@@ -138,6 +138,11 @@ public class Responder
                         do about it, I'm afraid.
                         """);
     }
+    
+    public HashMap<String, String> getResponseMap()
+    {
+        return new HashMap<>(responseMap);
+    }
 
     /**
      * Build up a list of default responses from which we can pick one
